@@ -1,8 +1,4 @@
-April 10th, 2022
-
-Revised from the April 9th Report:
-- Madrid has 1 ais523 Stamp (from 0)
-- History accurately shows ais523 created two stamps (from 1) on Apr 4th
+April 17th, 2022
 
 Unique Stamps to Win: 16
 
@@ -23,13 +19,16 @@ Madrid:
 - 1 ais523 stamp
 
 Murphy:
-- 14 Murphy Stamps
+- 13 Murphy Stamps
+- 1 secretsnail Stamp
 
 nix:
 - 6 Jason Stamps
 
 secretsnail:
 - 1 ais523 Stamp
+- 1 Madrid Stamp
+- 1 Murphy Stamp
 
 All other stamp balances are 0. 
 
@@ -41,9 +40,24 @@ juan Stamps:
 "It features me in a thoughtful pose, a chalkboard full of indeciphrable
 mathematical symbols as a background."
 
+Madrid Stamp:
+Image attached.
+
 -------
 History
 -------
+2022-04-11: Madrid (via contract) grants emself 1 Madrid Stamp
+2022-04-11: Madrid (via contract) grants emself 1 Madrid Stamp
+2022-04-11: Madrid (via contract) transfers 1 Madrid Stamp to
+            secretsnail
+2022-04-11: Madrid (via contract) transfers 1 Madrid Stamp to
+            secretsnail
+2022-04-11: secretsnail transfer 1 Madrid Stamp to Murphy
+2022-04-11: Murphy (via promise) transfers 1 Murphy Stamp to secretsnail
+
+---------------
+Previous Report
+---------------
 2022-04-03: Madrid grants emself 1 Madrid Stamp
 2022-04-03: Murphy grants emself 14 Murphy Stamps
 2022-04-03: juan grants emself 1 juan Stamp

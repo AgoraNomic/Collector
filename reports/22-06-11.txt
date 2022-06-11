@@ -1,16 +1,10 @@
-Jun 4th, 2022, v2
-
-Revision:
-- 4st owns 1 4st Stamp.
+Jun 4th, 2022
 
 Unique Stamps to Win: 15
 
 --------------
 Stamp Holdings
 --------------
-
-4st:
-- 1 4st Stamp
 
 ais523:
 - 1 Madrid Stamp
@@ -68,10 +62,9 @@ Since Last Report
 2022-06-04: ais523 grants emself 1 ais523 Stamp
 2022-06-04: ais523 transfers 1 ais523 Stamp to Murphy
 2022-06-04: Murphy (via promise) transfers 1 Murphy Stamp to ais523
-2022-06-08: G. (via welcome package) grants 4st 1 4st Stamp.
 2022-06-10: juan grants emself 1 juan Stamp
 2022-06-10: juan transfers 1 juan Stamp to secretsnail
-2022-06-10: secretsnail (via promise) transfers 1 Madrid Stamp to juan
+2022-06-10: secretsnail (via promise) transfers 1 Madrid stamp to juan
 
 
 ------------

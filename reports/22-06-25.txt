@@ -1,0 +1,88 @@
+Jun 25th, 2022
+
+Unique Stamps to Win: 15
+
+--------------
+Stamp Holdings
+--------------
+
+ais523:
+- 51 ais523 Stamps
+- 1 4st Stamp
+- 1 Madrid Stamp
+- 1 Murphy Stamp
+- 2 nix Stamps
+
+Jason:
+- 6 nix Stamps
+
+juan:
+- 1 Madrid Stamp
+- 1 Murphy Stamp
+- 1 juan Stamp
+
+Madrid:
+- 1 ais523 Stamp
+- 2 secretsnail Stamps
+
+Murphy:
+- 1 ais523 Stamp
+- 1 juan Stamp
+- 1 Madrid Stamp
+- 12 Murphy Stamps
+
+nix:
+- 2 ais523 Stamps
+- 25 Aspen Stamps
+- 6 Jason Stamps
+- 2 Madrid Stamps
+
+secretsnail:
+- 1 ais523 Stamp
+- 25 Aspen Stamps
+- 1 juan Stamp
+- 5 Madrid Stamp
+- 1 Murphy Stamp
+- 2 nix Stamps
+
+All other stamp balances are 0. 
+
+------------------------------------
+Stamp Descriptions (does not ratify)
+------------------------------------
+
+juan Stamps:
+"It features me in a thoughtful pose, a chalkboard full of indeciphrable
+mathematical symbols as a background."
+
+Madrid Stamp:
+Image attached.
+
+-----------------
+Since Last Report
+-----------------
+2022-06-25: ais523 grants emself 51 ais523 Stamps.
+
+------------
+Last 4 Weeks
+------------
+2022-05-11: secretsnail (via contract) grants emself 2 secretsnail
+            Stamps
+2022-05-11: secretsnail (via contract) transfer 2 secretsnail Stamps to
+            Madrid
+---
+2022-05-30: juan grants emself 1 juan Stamp
+2022-05-30: juan transfers 1 juan Stamp to Murphy
+2022-05-30: Murphy (via promise) transfers 1 Murphy Stamp to juan
+
+---
+2022-06-04: ais523 grants emself 1 ais523 Stamp
+2022-06-04: ais523 transfers 1 ais523 Stamp to Murphy
+2022-06-04: Murphy (via promise) transfers 1 Murphy Stamp to ais523
+2022-06-08: G. (via welcome package) grants 4st 1 4st Stamp.
+2022-06-10: juan grants emself 1 juan Stamp
+2022-06-10: juan transfers 1 juan Stamp to secretsnail
+2022-06-10: secretsnail (via promise) transfers 1 Madrid Stamp to juan
+
+---
+2022-06-12: 4st (via promise) transfers 1 4st Stamp to ais523

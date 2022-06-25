@@ -1,4 +1,4 @@
-Jun 18th, 2022
+Jun 25th, 2022
 
 Unique Stamps to Win: 15
 
@@ -7,6 +7,7 @@ Stamp Holdings
 --------------
 
 ais523:
+- 51 ais523 Stamps
 - 1 4st Stamp
 - 1 Madrid Stamp
 - 1 Murphy Stamp
@@ -60,8 +61,7 @@ Image attached.
 -----------------
 Since Last Report
 -----------------
-2022-06-12: 4st (via promise) transfers 1 4st Stamp to ais523
-
+2022-06-25: ais523 grants emself 51 ais523 Stamps.
 
 ------------
 Last 4 Weeks
@@ -83,3 +83,6 @@ Last 4 Weeks
 2022-06-10: juan grants emself 1 juan Stamp
 2022-06-10: juan transfers 1 juan Stamp to secretsnail
 2022-06-10: secretsnail (via promise) transfers 1 Madrid Stamp to juan
+
+---
+2022-06-12: 4st (via promise) transfers 1 4st Stamp to ais523

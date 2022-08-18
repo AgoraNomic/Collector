@@ -6,6 +6,9 @@ Unique Stamps to Win: 19
 Stamp Holdings
 --------------
 
+4st:
+- 1 ais523 Stamp
+
 ais523:
 - 35 ais523 Stamps
 - 1 4st Stamp
@@ -22,7 +25,7 @@ juan:
 - 1 juan Stamp
 
 Madrid:
-- 17 ais523 Stamp
+- 16 ais523 Stamp
 - 2 secretsnail Stamps
 
 Murphy:
@@ -36,6 +39,9 @@ nix:
 - 25 Aspen Stamps
 - 6 Jason Stamps
 - 2 Madrid Stamps
+
+Pilgore:
+- 1 Pilgore Stamp
 
 secretsnail:
 - 1 ais523 Stamp
@@ -61,14 +67,15 @@ mathematical symbols as a background."
 Madrid Stamp:
 Image attached.
 
+4st Stamp:
+"Intricately detailed, innumerous qualities, nothing like it shall ever 
+come to exist. Unless, of course, the original were to be destroyed."
+
 -----------------
 Since Last Report
 -----------------
-2022-08-05: ais523 (via promise) transfers 16 ais523 Stamps to Madrid.
-2022-08-05: Madrid transfers 16 Madrid Stamps to ais523.
-2022-08-05: Madrid grants emself 1 Madrid Stamp.
-2022-08-05: Madrid grants emself 15 Madrid Stamps.
-
+2022-08-15: nix (via welcome package) grants Pilgore 1 Pilgore Stamp.
+2022-08-16: Madrid transfers 1 ais523 Stamp to 4st.
 
 -----
 Older
@@ -90,3 +97,9 @@ Older
 ---
 2022-07-23: Jason (via welcome package) grants Vitor Gonçalves 1 Vitor
             Gonçalves Stamp.
+
+---
+2022-08-05: ais523 (via promise) transfers 16 ais523 Stamps to Madrid.
+2022-08-05: Madrid transfers 16 Madrid Stamps to ais523.
+2022-08-05: Madrid grants emself 1 Madrid Stamp.
+2022-08-05: Madrid grants emself 15 Madrid Stamps.

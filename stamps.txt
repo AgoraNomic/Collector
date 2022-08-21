@@ -16,6 +16,9 @@ ais523:
 - 1 Murphy Stamp
 - 2 nix Stamps
 
+Cap'n:
+- 1 Cap'n Stamp
+
 Jason:
 - 6 nix Stamps
 
@@ -76,6 +79,7 @@ Since Last Report
 -----------------
 2022-08-15: nix (via welcome package) grants Pilgore 1 Pilgore Stamp.
 2022-08-16: Madrid transfers 1 ais523 Stamp to 4st.
+2022-08-21: 4st (via welcome package) grants Cap'n 1 Cap'n Stamp.
 
 -----
 Older

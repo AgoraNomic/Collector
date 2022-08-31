@@ -70,15 +70,16 @@ mathematical symbols as a background."
 Madrid Stamp:
 Image attached.
 
+4st Stamp:
+"Intricately detailed, innumerous qualities, nothing like it shall ever 
+come to exist. Unless, of course, the original were to be destroyed."
+
 -----------------
 Since Last Report
 -----------------
-2022-08-15: Madrid transfers 1 ais523 Stamp to 4st.
-2022-08-15: Pilgore gains 1 Pilgore Stamp (welcome package).
-2022-08-21: Cap'n gains 1 Cap'n Stamp (welcome package).
-
-
-
+2022-08-15: nix (via welcome package) grants Pilgore 1 Pilgore Stamp.
+2022-08-16: Madrid transfers 1 ais523 Stamp to 4st.
+2022-08-21: 4st (via welcome package) grants Cap'n 1 Cap'n Stamp.
 
 -----
 Older

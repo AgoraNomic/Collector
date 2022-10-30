@@ -42,7 +42,7 @@ with open(recent_file, 'r') as infile:
             stamp_str+= "s"
         
         if event == "NEW":
-            historical+= date + ": " + player + " granted " + number + " " + s_type + " " + stamp_str + " by " + source + " (" + reason + ").\n"
+            historical+= date + ": " + player + " granted " + number + " " + s_type + " " + stamp_str + " by " + source + " ("  + reason + ").\n"
             if s_type not in current_stamps[player]:
                 current_stamps[player][s_type] = int(number)
             else:
@@ -63,139 +63,64 @@ with open(recent_file, 'r') as infile:
             with open(historic_file, 'a') as outfile:
                 outfile.write(','.join(row)+"\n")
 
-for key in current_stamps:
-    print(key + ":")
-    for item in current_stamps[key]:
+# get ready to format current output
+current_holdings_str = ""
+current_holdings_csv = ""
+
+# sort owners
+owners = sorted(current_stamps.keys(), key = lambda s: s.lower())
+if 'L&FD' in owners:
+    owners.remove('L&FD')
+    owners = ['L&FD'] + owners
+
+for owner in owners:
+    line = owner + ": \n"
+    current_holdings_csv+= owner + ","
+
+    # sort stamps
+    stamp_types = sorted(current_stamps[owner].keys(), key = lambda s: s.lower())
+
+    for stamp_type in stamp_types:
+        stamp_count = current_stamps[owner][stamp_type]
         stamp_str = "stamp"
-        if int(current_stamps[key][item]) > 1:
+        if int(stamp_count) > 1:
             stamp_str+= "s"
-        print("- " + str(current_stamps[key][item]) + " " + item + " " + stamp_str)
-    print()
+        line += "- " + str(stamp_count) + " " + stamp_type + " " + stamp_str + "\n"
+        current_holdings_csv+= stamp_type + "," + str(stamp_count) + ","
+    current_holdings_csv = current_holdings_csv[:-1] + "\n"
+    current_holdings_str += line + "\n"
 
-print(historical)
-
-
-# Sort everything and prepare for outputs
-#TODO: Finish the file output, none of it is done
-sorted_keys = sorted(current_stamps.keys())
-
-file_output = ""
-
-for key in current_stamps:
-    if not current_stamps[key]:
-        sorted_keys.pop(key)
-
-if isReport:
-    with open(recent_file, 'w') as outfile:
-        outfile.write("Name,Change,Reason,Date\n")
-
-# Grab all the player names, then sort them by score
-pl_keys = list(players.keys())
-pl_keys.sort(key=lambda x:players[x].score, reverse=True) #sort by new score, desc
-
-# define the ordinal numbers
-ordinal = lambda n: "%d%s" % (n,"tsnrhtdd"[(n//10%10!=1)*(n%10<4)*n%10::4])
-
-place = 1
-ties = -1 # starts at -1 because the first loop will iterate it
-previous_score = players[pl_keys[0]].score
-out = ""
-
-report_scores = ""
-html_scores = ""
-
-def report_formatter(place, pl):
-    out = ""
-    out+= ordinal(place) + " " * 4
-    out+= pl.short_name + " " * 6
-    out+= pl.scorestr() + " " * 4
-    out+= pl.changestr()
-    out+= "\n"
-    return(out)
-
-def html_formatter(place, pl):
-    out = "<tr>"
-    out+= "<td>" + ordinal(place) + "</td>"
-    out+= "<td>" + pl.short_name + "</td>"
-    out+= "<td>" + pl.scorestr() + "</td>"
-    out+= "<td>" + pl.changestr() + "</td>"
-    out+= "</tr>"
-    return(out)
-
-for player in pl_keys:
-    pl = players[player]
-
-    if pl.score == previous_score:
-        ties+=1
-    else:
-        place+=ties+1
-        ties=0
-    previous_score = pl.score
-    report_scores += report_formatter(place, pl)
-    html_scores += html_formatter(place, pl)
-
-pl_keys.sort(key=lambda x : players[x].name, reverse=False) #sort by name
-
-# Generate key
-key_list = ""
-for player in pl_keys:
-    key_list+= players[player].name + " = " + players[player].short_name + "; "
-
-key_list = key_list[:-2]
-
-history=""
-
-for i in changes:
-    history += i[4] + ": "
-    if i[0] == "ADJ":
-        if int(i[2]) >= 0:
-            history += i[1] + " gains " + i[2] + " (" + i[3] + ")"
-        else:
-            history += i[1] + " loses " + i[2] + " (" + i[3] + ")"
-    elif i[0] == "SET":
-        history += i[1] + " score set to " + i[2] + " (" + i[3] + ")"
-    elif i[0] == "QRT":
-        history += "All players' scores halved for new quarter."
-    elif i[0] == "REG":
-        history += i[1] + " registers."
-    elif i[0] == "DRG":
-        history += i[1] + " is deregistered."
-    elif i[0] == "WIN":
-        history += i[1] + " wins via High Score. Eir score is set to 0. Other scores are halved."
-    history+= "\n"
+print(current_holdings_csv)
+current_holdings_str = current_holdings_str[:-2]
 
 # Apply map and output report
 with open('report.template', 'r') as infile:
     template = infile.read()
 
-report_mapping = {'date': now.strftime('%d %b %Y'), 'history': history, 'scores': report_scores, 'key': key_list}
+report_mapping = {'date': now.strftime('%d %b %Y'), 'stamps': current_holdings_str, 'historical': historical}
 
 report = template.format_map(report_mapping)
 
-# Apply map and output html
-with open('report.html.template', 'r') as infile:
-    template = infile.read()
-
-html_mapping = {'date': now.strftime('%d %b %Y'), 'history': history, 'scores': html_scores, 'key': key_list}
-
-html = template.format_map(html_mapping)
-
 if not isReport:
     print(report)
-    print(html)
 else:
     report_name = now.strftime('%Y-%m-%d')
 
-    with open(score_file, 'w') as outfile:
-        outfile.write("Name,Short,Score\n")
-        for player in pl_keys:
-            outfile.write(players[player].name+","+players[player].short_name+","+str(players[player].score)+"\n")
-
-    with open("report.html", "w") as ofile:
-        ofile.write(html)
-
+    # Write the report to the report.txt and its own file
     with open('reports/' + report_name + '.txt', 'w') as ofile:
         ofile.write(report)
 
     with open('report.txt', 'w') as ofile:
         ofile.write(report)
+
+    # Updates current.csv
+    with open('current.csv', 'w') as ofile:
+        ofile.write(current_holdings_csv)
+
+    # Update history.csv
+    with open ('history.csv', 'a') as ofile:
+        ofile.write(historical)
+        
+    # Empty recent_events.csv
+    with open('recent_events.csv', 'w') as ofile:
+        ofile.write("EVENT,PLAYER,TYPE,SOURCE,NUMBER,REASON,DATE")

@@ -1,1 +1,31 @@
- 
+"EVENT","PLAYER","TYPE","SOURCE","NUMBER","REASON","DATE"
+TRA,L&FD,ais523,nix,2,Deregistered,2022-08-29
+TRA,L&FD,Madrid,nix,2,Deregistered,2022-08-29
+TRA,L&FD,Jason,nix,6,Deregistered,2022-08-29
+TRA,L&FD,Aspen,nix,25,Deregistered,2022-08-29
+NEW,ziproot,ziproot,snail,1,Welcome Package,2022-09-07
+TRA,L&FD,ais523,4st,1,Deregistered,2022-09-10
+TRA,L&FD,ais523,Madrid,16,Deregistered,2022-09-11
+TRA,L&FD,snail,Madrid,1,Deregistered,2022-09-11
+NEW,orb,orb,ziproot,1,Welcome Package,2022-10-05
+NEW,Shy Owl,Shy Owl,ziproot,1,Welcome Package,2022-10-07
+NEW,snail,Shy Owl,Shy Owl,1,Shy Owl grant to snail,2022-10-08
+TRA,Shy Owl,Madrid,snail,1,Transfer,2022-10-08
+NEW,nix,nix,G.,1,Welcome Package,2022-10-09
+NEW,the Astrally Forged,the Astrally Forged,juan,1,Welcome Package,2022-10-15
+NEW,Aced7,Aced7,nix,1,Welcome Package,2022-10-19
+2022-08-29: L&FD given (transferred) 2 ais523 stamps by nix (Deregistered).
+2022-08-29: L&FD given (transferred) 2 Madrid stamps by nix (Deregistered).
+2022-08-29: L&FD given (transferred) 6 Jason stamps by nix (Deregistered).
+2022-08-29: L&FD given (transferred) 25 Aspen stamps by nix (Deregistered).
+2022-09-07: ziproot granted 1 ziproot stamp by snail (Welcome Package).
+2022-09-10: L&FD given (transferred) 1 ais523 stamp by 4st (Deregistered).
+2022-09-11: L&FD given (transferred) 16 ais523 stamps by Madrid (Deregistered).
+2022-09-11: L&FD given (transferred) 1 snail stamp by Madrid (Deregistered).
+2022-10-05: orb granted 1 orb stamp by ziproot (Welcome Package).
+2022-10-07: Shy Owl granted 1 Shy Owl stamp by ziproot (Welcome Package).
+2022-10-08: snail granted 1 Shy Owl stamp by Shy Owl (Shy Owl grant to snail).
+2022-10-08: Shy Owl given (transferred) 1 Madrid stamp by snail (Transfer).
+2022-10-09: nix granted 1 nix stamp by G. (Welcome Package).
+2022-10-15: the Astrally Forged granted 1 the Astrally Forged stamp by juan (Welcome Package).
+2022-10-19: Aced7 granted 1 Aced7 stamp by nix (Welcome Package).

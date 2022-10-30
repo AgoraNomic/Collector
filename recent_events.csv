@@ -1,16 +1,1 @@
-"EVENT","PLAYER","TYPE","SOURCE","NUMBER","REASON","DATE"
-"NEW","Gaelan","Gaelan","Gaelan",100,"Buy",2022-08-21
-"NEW","4st","4st","4st",500,"Buy",2022-08-21
-"TRA","Agora","ais523","nix",2,"Deregistered",2022-08-29
-"TRA","Agora","Madrid","nix",2,"Deregistered",2022-08-29
-"TRA","Agora","Jason","nix",6,"Deregistered",2022-08-29
-"TRA","Agora","Aspen","nix",25,"Deregistered",2022-08-29
-"NEW","ziproot","ziproot","snail",1,"Welcome Package",2022-09-07
-"TRA","Agora","ais523","4st",1,"Deregistered",2022-09-10
-"TRA","Agora","ais523","Madrid",16,"Deregistered",2022-09-11
-"TRA","Agora","snail","Madrid",1,"Deregistered",2022-09-11
-"NEW","orb","orb","ziproot",1,"Welcome Package",2022-10-05
-"NEW","Shy Owl","Shy Owl","ziproot",1,"Welcome Package",2022-10-07
-"NEW","nix","nix","G.",1,"Welcome Package",2022-10-09
-"NEW","the Astrally Forged","the Astrally Forged","juan",1,"Welcome Package",2022-10-15
-"NEW","Aced7","Aced7","nix",1,"Welcome Package",2022-10-19
+EVENT,PLAYER,TYPE,SOURCE,NUMBER,REASON,DATE

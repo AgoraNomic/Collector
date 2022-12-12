@@ -49,14 +49,11 @@ Shy Owl (2):
 - 1 Madrid stamp
 - 1 Shy Owl stamp
 
-snail (35):
-- 1 ais523 stamp
-- 25 Aspen stamps
-- 1 juan stamp
-- 4 Madrid stamps
-- 1 Murphy stamp
-- 2 nix stamps
-- 1 Shy Owl stamp
+snail (29):
+- 24 Aspen stamps
+- 3 Madrid stamps
+- 1 nix stamp
+- 1 snail stamp
 
 the Astrally Forged (1):
 - 1 the Astrally Forged stamp
@@ -72,18 +69,18 @@ Type Totals
 
 4st: 1
 Aced7: 1
-ais523: 56
-Aspen: 50
+ais523: 55
+Aspen: 49
 Cap’n: 1
 Janet: 12
-juan: 2
-Madrid: 25
-Murphy: 14
-nix: 5
+juan: 1
+Madrid: 24
+Murphy: 13
+nix: 4
 orb: 1
 Pilgore: 1
-Shy Owl: 2
-snail: 1
+Shy Owl: 1
+snail: 2
 the Astrally Forged: 1
 Vitor Gonçalves: 1
 ziproot: 1
@@ -108,4 +105,15 @@ come to exist. Unless, of course, the original were to be destroyed."
 Since Last Report
 -----------------
 2022-11-07: ziproot deregistered.
+2022-12-11: Aspen given (transferred) 25 Aspen stamps by nix (by
+announcement).
+2022-12-12: snail granted 2 snail stamps via Wealth Dream.
+2022-12-12: snail destroyed 1 ais523 stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 Aspen stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 juan stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 Madrid stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 Murphy stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 nix stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 Shy Owl stamp in eir possession (points set).
+2022-12-12: snail destroyed 1 snail stamp in eir possession (points set).
 

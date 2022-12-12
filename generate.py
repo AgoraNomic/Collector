@@ -66,32 +66,41 @@ with open(recent_file, 'r') as infile:
         
         if event == "NEW":
             historical+= f"{date}: {player} granted {number} {s_type} stamp{'s' if number != 1 else ''} by {source} ({reason}).\n"
+            pl.modifyBalance(player, number)
             countStamps(s_type, number)
         
         elif event == "DREAM":
             number = max(0, 2 - (stamp_counts[player] // 8))
             historical+= f"{date}: {player} granted {number} {player} stamp{'s' if number != 1 else ''} via Wealth Dream.\n"
+            pl.modifyBalance(player, number)
             countStamps(player, number)
         
         elif event == "TRA":
             historical+= f"{date}: {player} given (transferred) {number} {s_type} stamp{'s' if number != 1 else ''} by {source} ({reason }).\n"
             players[source].modifyBalance(s_type, 0-number)
+            pl.modifyBalance(player, number)
             if players[source].totalStamps() == 0:
                 players.pop(source)
             
         elif event == "DEL": # expects a negative number
             historical+= f"{date}: {player} destroyed {number} {s_type} stamp{'s' if number != 1 else ''} in eir possession ({reason}).\n"
             countStamps(s_type, number)
+            pl.modifyBalance(player, number)
             if players[player].totalStamps() == 0:
                 players.pop(player)
             
-        pl.modifyBalance(player, number)
+        elif event == "DRG":
+            historical+= f"{date}: {player} deregistered.\n"
+            for key in players[player].stamp_balances.keys():
+                players["L&FD"].modifyBalance(key, players[player].stamp_balances[key])
+            players.pop(player)
         
         # If it's a report, put all of this in the history file now that we're done with it
         if isReport:
             historic_file = 'history.csv'
             with open(historic_file, 'a') as outfile:
                 outfile.write(','.join(row)+"\n")
+                
 # get ready to format current output
 current_holdings_str = ""
 current_holdings_csv = ""

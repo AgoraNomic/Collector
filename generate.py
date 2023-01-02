@@ -83,7 +83,7 @@ with open(recent_file, 'r') as infile:
                 players.pop(source)
             
         elif event == "DEL":
-            historical+= f"{date}: {player} destroyed {number} {s_type} stamp{'s' if number != 1 else ''} in eir possession ({reason}).\n"
+            historical+= f"{date}: {source} destroyed {number} {s_type} stamp{'s' if number != 1 else ''} in {player}'s possession ({reason}).\n"
             countStamps(s_type, 0-number)
             pl.modifyBalance(s_type, 0-number)
             if players[player].totalStamps() == 0:

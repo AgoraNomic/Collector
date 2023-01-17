@@ -66,7 +66,7 @@ with open(recent_file, 'r') as infile:
         
         if event == "NEW":
             historical+= f"{date}: {player} granted {number} {s_type} stamp{'s' if number != 1 else ''} by {source} ({reason}).\n"
-            pl.modifyBalance(player, number)
+            pl.modifyBalance(s_type, number)
             countStamps(s_type, number)
         
         elif event == "DRM":
@@ -78,7 +78,7 @@ with open(recent_file, 'r') as infile:
         elif event == "TRA":
             historical+= f"{date}: {player} given (transferred) {number} {s_type} stamp{'s' if number != 1 else ''} by {source} ({reason }).\n"
             players[source].modifyBalance(s_type, 0-number)
-            pl.modifyBalance(player, number)
+            pl.modifyBalance(s_type, number)
             if players[source].totalStamps() == 0:
                 players.pop(source)
             

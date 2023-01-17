@@ -67,3 +67,15 @@ NEW,juan,Murphy,P8876,1,,2023-01-01
 2023-01-01: juan granted 1 juan stamp by P8876 ().
 2023-01-01: juan granted 1 Madrid stamp by P8876 ().
 2023-01-01: juan granted 1 Murphy stamp by P8876 ().
+TRA,snail,ais523,L&FD,1,Dream of Charity,2023-01-01
+NEW,juan,Madrid,P8876,1,,2023-01-01
+NEW,juan,Murphy,P8876,1,,2023-01-01
+TRA,snail,snail,L&FD,1,via snail w/o objection,2023-01-08
+TRA,Janet,Janet,L&FD,6,via snail w/o objection,2023-01-08
+DEL,L&FD,Madrid,snail,2,w/o objection,2023-01-08
+2023-01-01: snail given (transferred) 1 ais523 stamp by L&FD (Dream of Charity).
+2023-01-01: juan granted 1 Madrid stamp by P8876 ().
+2023-01-01: juan granted 1 Murphy stamp by P8876 ().
+2023-01-08: snail given (transferred) 1 snail stamp by L&FD (via snail w/o objection).
+2023-01-08: Janet given (transferred) 6 Janet stamps by L&FD (via snail w/o objection).
+2023-01-08: snail destroyed 2 Madrid stamps in L&FD's possession (w/o objection).

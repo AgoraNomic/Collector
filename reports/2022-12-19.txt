@@ -1,11 +1,14 @@
-Stamp Holdings as of 17 Jan 2023
+Stamp Holdings as of 19 Dec 2022
 
 --------------
 Stamp Holdings
 --------------
 
-L&FD (19):
-- 18 ais523 stamps
+L&FD (29):
+- 19 ais523 stamps
+- 6 Janet stamps
+- 2 Madrid stamps
+- 1 snail stamp
 - 1 ziproot stamp
 
 Aced7 (1):
@@ -24,16 +27,8 @@ Aspen (25):
 Cap’n (1):
 - 1 Cap’n stamp
 
-Janet (12):
-- 12 Janet stamps
-
-juan (3):
-- 1 juan stamp
-- 1 Madrid stamp
-- 1 Murphy stamp
-
-Marb (1):
-- 1 Marb stamp
+Janet (6):
+- 6 Janet stamps
 
 Murphy (15):
 - 1 ais523 stamp
@@ -54,12 +49,11 @@ Shy Owl (2):
 - 1 Madrid stamp
 - 1 Shy Owl stamp
 
-snail (35):
-- 1 ais523 stamp
+snail (31):
 - 24 Aspen stamps
 - 3 Madrid stamps
 - 1 nix stamp
-- 6 snail stamps
+- 3 snail stamps
 
 the Astrally Forged (1):
 - 1 the Astrally Forged stamp
@@ -79,15 +73,14 @@ ais523: 55
 Aspen: 49
 Cap’n: 1
 Janet: 12
-juan: 2
-Madrid: 23
-Marb: 1
-Murphy: 14
+juan: 1
+Madrid: 24
+Murphy: 13
 nix: 4
 orb: 1
 Pilgore: 1
 Shy Owl: 1
-snail: 6
+snail: 4
 the Astrally Forged: 1
 Vitor Gonçalves: 1
 ziproot: 1
@@ -111,10 +104,5 @@ come to exist. Unless, of course, the original were to be destroyed."
 -----------------
 Since Last Report
 -----------------
-2023-01-01: snail given (transferred) 1 ais523 stamp by L&FD (Dream of Charity).
-2023-01-01: juan granted 1 Madrid stamp by P8876 ().
-2023-01-01: juan granted 1 Murphy stamp by P8876 ().
-2023-01-08: snail given (transferred) 1 snail stamp by L&FD (via snail w/o objection).
-2023-01-08: Janet given (transferred) 6 Janet stamps by L&FD (via snail w/o objection).
-2023-01-08: snail destroyed 2 Madrid stamps in L&FD's possession (w/o objection).
+2022-12-19: snail granted 2 snail stamps via Wealth Dream.
 

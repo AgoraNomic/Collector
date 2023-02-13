@@ -1,4 +1,4 @@
-Stamp Holdings as of 13 Feb 2023
+Stamp Holdings as of 07 Feb 2023
 
 --------------
 Stamp Holdings
@@ -50,19 +50,19 @@ orb (1):
 Pilgore (1):
 - 1 Pilgore stamp
 
-R. Lee (3):
-- 3 R. Lee stamps
+R. Lee (1):
+- 1 R. Lee stamp
 
 Shy Owl (2):
 - 1 Madrid stamp
 - 1 Shy Owl stamp
 
-snail (37):
+snail (35):
 - 1 ais523 stamp
 - 24 Aspen stamps
 - 3 Madrid stamps
 - 1 nix stamp
-- 8 snail stamps
+- 6 snail stamps
 
 tb148 (1):
 - 1 tb148 stamp
@@ -92,9 +92,9 @@ Murphy: 14
 nix: 4
 orb: 1
 Pilgore: 1
-R. Lee: 3
+R. Lee: 1
 Shy Owl: 1
-snail: 8
+snail: 6
 tb148: 1
 the Astrally Forged: 1
 Vitor Gonçalves: 1
@@ -119,6 +119,6 @@ come to exist. Unless, of course, the original were to be destroyed."
 -----------------
 Since Last Report
 -----------------
-2023-02-13: snail granted 2 snail stamps via Wealth Dream.
-2023-02-13: R. Lee granted 2 R. Lee stamps via Wealth Dream.
+2023-01-31: R. Lee granted 1 R. Lee stamp by R. Lee (Welcome Package).
+2023-02-06: tb148 granted 1 tb148 stamp by R. Lee (Welcome Package).
 

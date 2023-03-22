@@ -1,4 +1,4 @@
-Stamp Holdings as of 22 Mar 2023
+Stamp Holdings as of 21 Mar 2023
 
 --------------
 Stamp Holdings
@@ -43,10 +43,11 @@ Murphy (15):
 - 1 Madrid stamp
 - 12 Murphy stamps
 
-nix (8):
+nix (7):
 - 6 ais523 stamps
 - 1 nix stamp
 - 1 R. Lee stamp
+- -1 Yachay stamps
 
 R. Lee (8):
 - 8 R. Lee stamps
@@ -58,7 +59,7 @@ Shy Owl (2):
 snail (39):
 - 7 ais523 stamps
 - 23 Aspen stamps
-- 1 Cap'n stamp
+- 1 Cap’n stamp
 - 2 Madrid stamps
 - 1 nix stamp
 - 1 R. Lee stamp
@@ -80,7 +81,7 @@ Type Totals
 Aced7: 1
 ais523: 55
 Aspen: 48
-Cap'n: 1
+Cap’n: 1
 Janet: 3
 juan: 2
 Madrid: 22
@@ -95,7 +96,6 @@ snail: 4
 tb148: 1
 the Astrally Forged: 1
 Vitor Gonçalves: 1
-Yachay: 1
 ziproot: 1
 
 
@@ -124,4 +124,5 @@ Since Last Report
 2023-03-20: nix given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
 2023-03-20: Janet given (transferred) 1 ziproot stamp by L&FD (Charity Dream).
 2023-03-20: snail given (transferred) 1 Cap’n stamp by L&FD (Charity Dream).
-2023-03-21: R. Lee granted 1 R. Lee stamp via Wealth Dream. 
+2023-03-21: R. Lee granted 1 R. Lee stamp via Wealth Dream.
+

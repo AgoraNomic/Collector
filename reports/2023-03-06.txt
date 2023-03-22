@@ -1,15 +1,18 @@
-Stamp Holdings as of 22 Mar 2023
+Stamp Holdings as of 06 Mar 2023
 
 --------------
 Stamp Holdings
 --------------
 
-L&FD (5):
+L&FD (15):
+- 6 ais523 stamps
+- 1 Cap’n stamp
 - 1 orb stamp
 - 1 Pilgore stamp
-- 1 R. Lee stamp
+- 3 R. Lee stamps
 - 1 the Astrally Forged stamp
 - 1 Vitor Gonçalves stamp
+- 1 ziproot stamp
 
 Aced7 (1):
 - 1 Aced7 stamp
@@ -24,10 +27,9 @@ ais523 (56):
 Aspen (25):
 - 25 Aspen stamps
 
-Janet (10):
-- 6 ais523 stamps
-- 3 Janet stamps
-- 1 ziproot stamp
+Janet (15):
+- 3 ais523 stamps
+- 12 Janet stamps
 
 juan (3):
 - 1 juan stamp
@@ -43,32 +45,26 @@ Murphy (15):
 - 1 Madrid stamp
 - 12 Murphy stamps
 
-nix (8):
-- 6 ais523 stamps
+nix (4):
+- 3 ais523 stamps
 - 1 nix stamp
-- 1 R. Lee stamp
 
-R. Lee (8):
-- 8 R. Lee stamps
+R. Lee (6):
+- 6 R. Lee stamps
 
 Shy Owl (2):
 - 1 Madrid stamp
 - 1 Shy Owl stamp
 
-snail (39):
+snail (35):
 - 7 ais523 stamps
 - 23 Aspen stamps
-- 1 Cap'n stamp
 - 2 Madrid stamps
 - 1 nix stamp
-- 1 R. Lee stamp
-- 4 snail stamps
+- 2 snail stamps
 
 tb148 (1):
 - 1 tb148 stamp
-
-Yachay (1):
-- 1 Yachay stamp
 
 All other stamp balances are 0. 
 
@@ -80,8 +76,8 @@ Type Totals
 Aced7: 1
 ais523: 55
 Aspen: 48
-Cap'n: 1
-Janet: 3
+Cap’n: 1
+Janet: 12
 juan: 2
 Madrid: 22
 Marb: 1
@@ -89,13 +85,12 @@ Murphy: 14
 nix: 4
 orb: 1
 Pilgore: 1
-R. Lee: 11
+R. Lee: 9
 Shy Owl: 1
-snail: 4
+snail: 2
 tb148: 1
 the Astrally Forged: 1
 Vitor Gonçalves: 1
-Yachay: 1
 ziproot: 1
 
 
@@ -117,11 +112,14 @@ come to exist. Unless, of course, the original were to be destroyed."
 -----------------
 Since Last Report
 -----------------
-2023-03-16: Yachay given (transferred) 1 Yachay stamp by nix (Welcome Package).
-2023-03-20: nix given (transferred) 1 R. Lee stamp by L&FD (Charity Dream).
-2023-03-20: Janet given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
-2023-03-20: snail given (transferred) 1 R. Lee stamp by L&FD (Charity Dream).
-2023-03-20: nix given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
-2023-03-20: Janet given (transferred) 1 ziproot stamp by L&FD (Charity Dream).
-2023-03-20: snail given (transferred) 1 Cap’n stamp by L&FD (Charity Dream).
-2023-03-21: R. Lee granted 1 R. Lee stamp via Wealth Dream. 
+2023-03-05: R. Lee granted 1 R. Lee stamp via Wealth Dream.
+2023-03-05: snail given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: nix given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: Janet given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: snail given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: nix given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: Janet given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: snail given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: nix given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+2023-03-05: Janet given (transferred) 1 ais523 stamp by L&FD (Charity Dream).
+

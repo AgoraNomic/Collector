@@ -159,6 +159,5 @@ else:
     with open ('history.csv', 'a') as ofile:
         ofile.write(historical)
         
-    # Empty recent_events.csv
-    with open('recent_events.csv', 'w') as ofile:
-        ofile.write("EVENT,PLAYER,TYPE,SOURCE,NUMBER,REASON,DATE")
+    #with open('recent_events.csv', 'w') as ofile:
+    #    ofile.write("EVENT,PLAYER,TYPE,SOURCE,NUMBER,REASON,DATE")
